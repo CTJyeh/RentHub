@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('localhost:27017/test1');
+var db = monk('localhost:27017/renthub');
 
 var index = require('./routes/index');
 var users = require('./routes/users');  //comprise of both owner & renters. 
