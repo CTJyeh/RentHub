@@ -1,22 +1,20 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET home page. 
+   No Authorizatio needed
+*/
+
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'RentHub' });
 });
 
-router.get('/userlist', function(req, res) {
-  var db = req.db;
-  var collection = db.get('usercollection');
-  collection.find({}, {}, function(e, docs) {
-    res.render('userlist', {
-      "userlist" : docs
-    });
-  });
-});
 
-router.get('/:collection', function(req, res) {
+/*
+/users  -> json 
+*/
+
+/*router.get('/:collection', function(req, res) {
   var params = req.params.collection;
   var db = req.db;
   var collection = db.get(params);
@@ -24,7 +22,6 @@ router.get('/:collection', function(req, res) {
     console.log(results);
     res.json(results);
   });
-
-});
+});*/
 
 module.exports = router;

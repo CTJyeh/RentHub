@@ -1,0 +1,19 @@
+extends layout
+
+block content
+	h1.
+		List Of items
+	table
+		tr
+			th Item Name
+			th Description
+			th Image
+			th Price
+			th Owner
+		each item, i in itemlist
+			tr
+				td= item.name
+				td= item.description
+				td= item.imagelinks
+				td= item.price
+				td= item.user_id

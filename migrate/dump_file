@@ -1,0 +1,21 @@
+db.usercollection.insert({ "username" : "testuser1", "email" : "testuser1@testdomain.com", "location" : {"addr1" : "12345 Test Drive", "state": "CA", "country": "US"}, "password": "foobar1", "itemIds": ["1"]});
+db.usercollection.insert({ "username" : "testuser2", "email" : "testuser2@testdomain.com", "location" : {"addr1" : "12345 Test Drive", "state": "CA", "country": "US"}, "password": "foobar1", "itemIds": ["2"]});
+db.usercollection.insert({ "username" : "testuser3", "email" : "testuser3@testdomain.com", "location" : {"addr1" : "12345 Test Drive", "state": "CA", "country": "US"}, "password": "foobar1", "itemIds": ["3"]});
+db.usercollection.insert({ "username" : "testuser4", "email" : "testuser4@testdomain.com", "location" : {"addr1" : "12345 Test Drive", "state": "CA", "country": "US"}, "password": "foobar1", "itemIds": ["4"]});
+db.usercollection.insert({ "username" : "testuser5", "email" : "testuser5@testdomain.com", "location" : {"addr1" : "12345 Test Drive", "state": "CA", "country": "US"}, "password": "foobar1", "itemIds": ["5"]});
+db.usercollection.insert({ "username" : "testuser6", "email" : "testuser6@testdomain.com", "location" : {"addr1" : "12345 Test Drive", "state": "CA", "country": "US"}, "password": "foobar1", "itemIds": ["6"]});
+db.usercollection.insert({ "username" : "testuser7", "email" : "testuser7@testdomain.com", "location" : {"addr1" : "12345 Test Drive", "state": "CA", "country": "US"}, "password": "foobar1", "itemIds": ["7"]});
+db.usercollection.insert({ "username" : "testuser8", "email" : "testuser8@testdomain.com", "location" : {"addr1" : "12345 Test Drive", "state": "CA", "country": "US"}, "password": "foobar1", "itemIds": ["8"]});
+db.usercollection.insert({ "username" : "testuser9", "email" : "testuser9@testdomain.com", "location" : {"addr1" : "12345 Test Drive", "state": "CA", "country": "US"}, "password": "foobar1", "itemIds": ["9"]});
+db.usercollection.insert({ "username" : "testuser10", "email" : "testuser10@testdomain.com", "location" : {"addr1" : "12345 Test Drive", "state": "CA", "country": "US"}, "password": "foobar1", "itemIds": ["10"]});
+
+db.itemcollection.insert({ "name" : "item1", "description" : "item 1 description", "imagelinks" : "https://www.google.com", "price" : "10", "user_id" : "1" });
+db.itemcollection.insert({ "name" : "item2", "description" : "item 2 description", "imagelinks" : "https://www.google.com", "price" : "20", "user_id" : "2" });
+db.itemcollection.insert({ "name" : "item3", "description" : "item 3 description", "imagelinks" : "https://www.google.com", "price" : "30", "user_id" : "3" });
+db.itemcollection.insert({ "name" : "item4", "description" : "item 4 description", "imagelinks" : "https://www.google.com", "price" : "40", "user_id" : "4" });
+db.itemcollection.insert({ "name" : "item5", "description" : "item 5 description", "imagelinks" : "https://www.google.com", "price" : "50", "user_id" : "5" });
+db.itemcollection.insert({ "name" : "item6", "description" : "item 6 description", "imagelinks" : "https://www.google.com", "price" : "60", "user_id" : "6" });
+db.itemcollection.insert({ "name" : "item7", "description" : "item 7 description", "imagelinks" : "https://www.google.com", "price" : "70", "user_id" : "7" });
+db.itemcollection.insert({ "name" : "item8", "description" : "item 8 description", "imagelinks" : "https://www.google.com", "price" : "80", "user_id" : "8" });
+db.itemcollection.insert({ "name" : "item9", "description" : "item 9 description", "imagelinks" : "https://www.google.com", "price" : "90", "user_id" : "9" });
+db.itemcollection.insert({ "name" : "item10", "description" : "item 10 description", "imagelinks" : "https://www.google.com", "price" : "100", "user_id" : "10" });
